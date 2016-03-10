@@ -4,6 +4,10 @@ Hero Page
 ========================
 */
 
+div, h1{
+  border: 1px solid #333333;
+}
+
 .wrapper {
   min-width: 960px;
 }
@@ -18,5 +22,24 @@ Hero Page
 
 }
 
+.logo-navbar {
+  background: url('file:///Users/JoeBernardi/JDSite/JDSite/assets/images/logo.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-size:contain;
+}
+
+.margin-logo {
+  padding:12px 0 0 20px;
+
+}
+
+.navbar h1 {
+  font-size: 36px;
+  display: inline-block;
+  
+}
 
 
