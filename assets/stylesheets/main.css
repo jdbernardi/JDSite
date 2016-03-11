@@ -4,8 +4,12 @@ Hero Page
 ========================
 */
 
-div, h1{
-  border: 1px solid #333333;
+.clear {
+  clear: both;
+}
+
+body {
+  font-family: Arial, sans-serif;
 }
 
 .wrapper {
@@ -15,11 +19,20 @@ div, h1{
 .navbar {
   width: 100%;
   height: 70px;
+  color: #FFFFFF;
 }
 
 .background-blue {
   background-color: #1A92CB;
 
+}
+
+.navbar-menu p {
+  display: block;
+  float: right;
+  font-size: 18px;
+  padding-right: 14px;
+  margin-top: 25px;
 }
 
 .logo-navbar {
