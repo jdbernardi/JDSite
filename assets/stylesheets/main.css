@@ -50,7 +50,6 @@ body {
   font-size: 36px;
   display: inline-block;
   margin: 17px 0 0 10px;
-  
 }
 
 .logo-title-container {
@@ -58,9 +57,11 @@ body {
   vertical-align: middle;
 }
 
+
 /*
 =======================
 Gradient
+=======================
 */
 
 .blue-gradient {
@@ -68,3 +69,22 @@ Gradient
     background:  -webkit-linear-gradient(90deg, #1A92CB, #67B7DD);
     background:          linear-gradient(90deg, #1A92CB, #67B7DD); 
 }
+
+/*
+=======================
+Grids
+=======================
+*/
+
+.col-1-3 {
+  width: 33%;
+}
+
+.col-2-3 {
+  width:66%;
+}
+
+.grid {
+  width: 960px;
+}
+
