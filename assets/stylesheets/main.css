@@ -58,4 +58,13 @@ body {
   vertical-align: middle;
 }
 
+/*
+=======================
+Gradient
+*/
 
+.blue-gradient {
+    background:     -moz-linear-gradient(90deg, #1A92CB, #67B7DD);
+    background:  -webkit-linear-gradient(90deg, #1A92CB, #67B7DD);
+    background:          linear-gradient(90deg, #1A92CB, #67B7DD); 
+}
