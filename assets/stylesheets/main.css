@@ -4,6 +4,12 @@ Hero Page
 ========================
 */
 
+/*
+div * {
+  border: 1px solid #CCCCCC;
+}
+*/
+
 .clear {
   clear: both;
 }
@@ -47,7 +53,7 @@ body {
 }
 
 .navbar h1 {
-  font-size: 36px;
+  font-size: 30px;
   display: inline-block;
   margin: 17px 0 0 10px;
 }
@@ -56,6 +62,7 @@ body {
   display: inline-block;
   vertical-align: middle;
 }
+
 
 
 /*
@@ -84,8 +91,33 @@ Grids
   width:66%;
 }
 
+.col-1-2 {
+  width: 50%;
+}
+
 .grid {
   width: 960px;
   margin: 0 auto;
 }
 
+.center {
+  margin: 0 auto;
+}
+
+
+/*
+=======================
+Text
+=======================
+*/
+
+.text-center {
+  text-align: center;
+}
+
+.header {
+  font-size:36px;
+  font-weight: bold;
+  letter-spacing: .02em;
+  margin:54px 0;
+}
