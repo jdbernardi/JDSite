@@ -4,11 +4,6 @@ Hero Page
 ========================
 */
 
-/*
-div * {
-  border: 1px solid #CCCCCC;
-}
-*/
 
 .clear {
   clear: both;
@@ -95,6 +90,10 @@ Grids
   width: 50%;
 }
 
+.col-1-7 {
+  width: 12.5%;
+}
+
 
 
 .grid {
@@ -136,8 +135,8 @@ h3 {
   font-weight: 700;
 }
 
-#h3margin {
-  margin-top: 80px;
+.h3margin {
+  margin: 100px 0 40px 0;
 }
 
 .text-content-full {
@@ -149,5 +148,42 @@ h3 {
   padding:4px;
   margin-top:20px;
 }
+
+.box-shadow {
+  box-shadow: 0 0 4px #1A92CB;
+}
+
+.text-shadow {
+  text-shadow:1px 1px 2px #CCC;
+}
+
+/*
+=======================
+Images
+=======================
+*/
+
+.skill-logo {
+  width:  100px;
+  height: 100px;
+  display: block;
+  margin:0 auto;
+}
+
+.logos-container {
+  display: inline-block;
+  margin:0 0 0 90px;
+}
+
+.logos-container div {
+  display: inline-block;
+  margin:10px 10px 10px 0;
+}
+
+.logos-container div:last-child {
+  margin-right: 0;
+}
+
+
 
 
