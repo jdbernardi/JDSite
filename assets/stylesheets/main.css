@@ -104,9 +104,16 @@ Grids
 
 .center {
   margin: 0 auto;
+}
+
+.text-center {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+  text-indent: 10px;
+}
 
 /*
 =======================
@@ -114,9 +121,6 @@ Text
 =======================
 */
 
-div * {
-  border:1px solid #CCC;
-}
 
 
 .header {
@@ -133,7 +137,17 @@ h3 {
 }
 
 #h3margin {
-  margin: 0;
+  margin-top: 80px;
+}
+
+.text-content-full {
+  width:90%;
+  border:1px solid #CDD;
+  border-radius:3px;
+  font-size: 18px;
+  line-height: 27px;
+  padding:4px;
+  margin-top:20px;
 }
 
 
