@@ -94,6 +94,10 @@ Grids
   width: 12.5%;
 }
 
+.col-1-4 {
+  width: 20%;
+}
+
 
 
 .grid {
@@ -171,13 +175,11 @@ Images
 }
 
 .logos-container {
-  display: inline-block;
-  margin:0 0 0 90px;
+  margin:40px 0 40px 40px;
 }
 
 .logos-container div {
   display: inline-block;
-  margin:10px 10px 10px 0;
 }
 
 .logos-container div:last-child {
