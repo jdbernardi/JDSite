@@ -11,6 +11,7 @@ Hero Page
 
 body {
   font-family: Arial, sans-serif;
+  background: #FFFFFF;
 }
 
 .wrapper {
@@ -98,7 +99,13 @@ Grids
   width: 20%;
 }
 
-
+.flex-container {
+  display: -webkit-flex:;
+  display:     -moz-flex;
+  display:          flex;
+  width: 100%;
+  height: 200px;
+}
 
 .grid {
   width: 960px;
@@ -140,7 +147,7 @@ h3 {
 }
 
 .h3margin {
-  margin: 100px 0 40px 0;
+  margin: 40px 0 20px 0;
 }
 
 .text-content-full {
@@ -170,21 +177,18 @@ Images
 .skill-logo {
   width:  100px;
   height: 100px;
-  display: block;
-  margin:0 auto;
+  margin: auto;
 }
 
-.logos-container {
-  margin:40px 0 40px 40px;
+.web-portfolio {
+  width: 200px;
+  height: 175px;
+  margin: auto;
 }
 
-.logos-container div {
-  display: inline-block;
-}
 
-.logos-container div:last-child {
-  margin-right: 0;
-}
+
+
 
 
 
