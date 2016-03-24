@@ -11,7 +11,7 @@ Hero Page
 
 body {
   font-family: Arial, sans-serif;
-  background: #FFFFFF;
+  background: #FFF;
 }
 
 .wrapper {
@@ -104,7 +104,7 @@ Grids
   display:     -moz-flex;
   display:          flex;
   width: 100%;
-  height: 200px;
+ 
 }
 
 .grid {
@@ -137,7 +137,7 @@ Text
   font-size:36px;
   font-weight: bold;
   letter-spacing: .02em;
-  margin-top:54px;
+  margin: 40px auto 10px auto;
 }
 
 h3 {
@@ -152,12 +152,14 @@ h3 {
 
 .text-content-full {
   width:90%;
+  background: #FFFFFF;
   border:1px solid #CDD;
   border-radius:3px;
   font-size: 18px;
   line-height: 27px;
   padding:4px;
   margin-top:20px;
+
 }
 
 .box-shadow {
