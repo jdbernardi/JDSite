@@ -201,6 +201,15 @@ h3 {
   text-shadow:1px 2px 2px #CCC;
 }
 
+.large {
+  display: relative;
+  margin: 0 auto;
+  background: gray;
+  font-size: 3em;
+  color: black;
+
+}
+
 /*
 =======================
 Images
